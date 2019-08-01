@@ -60,6 +60,10 @@ namespace WindowsFormsApp1
             MessageBox.Show($"Nome: {nome} Sobrenome: {sobrenome} Data de Nascimento: {dataNascimento}");
         }
 
+        private void TxtDtNascimento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 //

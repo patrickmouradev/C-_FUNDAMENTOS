@@ -48,5 +48,20 @@ namespace WindowsFormsApp1
         {
             new Form2().Show();
         }
+
+        private void BtnChamarForm3_Click(object sender, EventArgs e)
+        {
+            new Form3().Show();
+        }
+
+        private void BtnChamaForm4_Click(object sender, EventArgs e)
+        {
+            new FrmPoupanca().Show();
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            new FormCalculaIdade().Show();
+        }
     }
 }
