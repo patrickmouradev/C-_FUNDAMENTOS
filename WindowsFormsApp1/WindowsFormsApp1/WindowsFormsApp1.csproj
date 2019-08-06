@@ -70,6 +70,24 @@
     <Compile Include="FormCalculaIdade.Designer.cs">
       <DependentUpon>FormCalculaIdade.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArray.Designer.cs">
+      <DependentUpon>frmArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatas.Designer.cs">
+      <DependentUpon>frmDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnum.Designer.cs">
+      <DependentUpon>frmEnum.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPoupanca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +107,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCalculaIdade.resx">
       <DependentUpon>FormCalculaIdade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArray.resx">
+      <DependentUpon>frmArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatas.resx">
+      <DependentUpon>frmDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnum.resx">
+      <DependentUpon>frmEnum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPoupanca.resx">
       <DependentUpon>FrmPoupanca.cs</DependentUpon>

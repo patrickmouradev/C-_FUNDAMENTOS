@@ -23,3 +23,6 @@ D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Windo
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmPoupanca.resources
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCalculaIdade.resources
+D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmDatas.resources
+D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmEnum.resources
+D:\CURSO\C#_NET\C-_FUNDAMENTOS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmArray.resources
