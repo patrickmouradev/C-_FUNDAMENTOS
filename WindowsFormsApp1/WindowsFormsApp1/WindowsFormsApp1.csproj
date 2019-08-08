@@ -70,6 +70,12 @@
     <Compile Include="FormCalculaIdade.Designer.cs">
       <DependentUpon>FormCalculaIdade.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlunos.Designer.cs">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmArray.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCalculaIdade.resx">
       <DependentUpon>FormCalculaIdade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlunos.resx">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmArray.resx">
       <DependentUpon>frmArray.cs</DependentUpon>

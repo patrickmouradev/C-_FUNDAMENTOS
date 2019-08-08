@@ -32,6 +32,9 @@
             this.lblTamanhoArray = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
+            this.btnVerificar = new System.Windows.Forms.Button();
+            this.lbl1Item = new System.Windows.Forms.Label();
+            this.lblNomeLetraR = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOK
@@ -69,17 +72,49 @@
             this.txtNome.Size = new System.Drawing.Size(206, 22);
             this.txtNome.TabIndex = 3;
             // 
+            // btnVerificar
+            // 
+            this.btnVerificar.Location = new System.Drawing.Point(151, 152);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(75, 23);
+            this.btnVerificar.TabIndex = 4;
+            this.btnVerificar.Text = "Verificar";
+            this.btnVerificar.UseVisualStyleBackColor = true;
+            this.btnVerificar.Click += new System.EventHandler(this.BtnVerificar_Click);
+            // 
+            // lbl1Item
+            // 
+            this.lbl1Item.AutoSize = true;
+            this.lbl1Item.Location = new System.Drawing.Point(148, 199);
+            this.lbl1Item.Name = "lbl1Item";
+            this.lbl1Item.Size = new System.Drawing.Size(46, 17);
+            this.lbl1Item.TabIndex = 5;
+            this.lbl1Item.Text = "label2";
+            // 
+            // lblNomeLetraR
+            // 
+            this.lblNomeLetraR.AutoSize = true;
+            this.lblNomeLetraR.Location = new System.Drawing.Point(148, 236);
+            this.lblNomeLetraR.Name = "lblNomeLetraR";
+            this.lblNomeLetraR.Size = new System.Drawing.Size(46, 17);
+            this.lblNomeLetraR.TabIndex = 6;
+            this.lblNomeLetraR.Text = "label2";
+            // 
             // frmArray
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblNomeLetraR);
+            this.Controls.Add(this.lbl1Item);
+            this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTamanhoArray);
             this.Controls.Add(this.btnOK);
             this.Name = "frmArray";
             this.Text = "frmArray";
+            this.Load += new System.EventHandler(this.FrmArray_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,5 +126,8 @@
         private System.Windows.Forms.Label lblTamanhoArray;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Button btnVerificar;
+        private System.Windows.Forms.Label lbl1Item;
+        private System.Windows.Forms.Label lblNomeLetraR;
     }
 }
