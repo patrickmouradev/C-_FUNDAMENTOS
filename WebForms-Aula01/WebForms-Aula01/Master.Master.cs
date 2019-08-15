@@ -11,7 +11,10 @@ namespace WebForms_Aula01
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session[Util.Util.SessaoUsuarioLogado] == null)
+            {
+                Response.Redirect("/login.aspx");
+            }
         }
     }
 }
