@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace Business.Model
 {
-    public class Usuario
+    public class MontadoraModel
     {
-        public string Login { get; set; }
-
-        public string Senha { get; set; }
+        public int Id { get; set; }
 
         public string Nome { get; set; }
 
-
-
-
+        public string Logo { get; set; }
     }
+
 }
